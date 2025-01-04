@@ -14,7 +14,7 @@ final class NewsetBooksLoading extends NewsetBooksState {}
 final class NewsetBooksScuess extends NewsetBooksState {
   final List<BookModel> books;
 
-  const NewsetBooksScuess({required this.books});
+  const NewsetBooksScuess(this.books);
 }
 
 final class NewsetBooksFailure extends NewsetBooksState {
