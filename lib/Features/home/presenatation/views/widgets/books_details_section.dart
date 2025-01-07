@@ -26,6 +26,7 @@ class BookDetailSection extends StatelessWidget {
           height: 43,
         ),
         Text(
+          textAlign: TextAlign.center,
           bookModel.volumeInfo.title!,
           style: Styls.textStyle30.copyWith(
             fontWeight: FontWeight.bold,
