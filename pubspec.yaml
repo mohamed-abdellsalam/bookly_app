@@ -43,10 +43,17 @@ dependencies:
   url_launcher: ^6.3.1
 
 dev_dependencies:
+  flutter_launcher_icons: ^0.14.2
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/Icon.png"
+  min_sdk_android: 21
+  adaptive_icon_background: "#ffffff" # You can use a color or image for the background
+  adaptive_icon_foreground: "assets/images/Icon.png" # For adaptive icons on Android
   flutter_lints: ^4.0.0
   flutter_test:
     sdk: flutter
-
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
 # The following section is specific to Flutter packages.
